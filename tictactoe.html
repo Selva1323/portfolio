@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Selva Perumal S | Portfolio - Tic Tac Toe</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>/* small page-specific */
+    .ttt-board{display:grid;grid-template-columns:repeat(3,100px);gap:8px;margin-top:18px}
+    .ttt-cell{width:100px;height:100px;border-radius:10px;background:linear-gradient(#071022,#071022);display:flex;align-items:center;justify-content:center;font-size:2.2rem;cursor:pointer;border:1px solid rgba(255,255,255,0.03)}
+  </style>
+</head>
+<body>
+  <main class="container" style="padding-top:90px;padding-bottom:80px;">
+    <a class="btn ghost" href="../index.html">← Back</a>
+    <h1 style="margin-top:18px">Tic Tac Toe</h1>
+    <p class="section-sub">Interactive Tic Tac Toe with win detection logic — practice game logic and UI.</p>
+
+    <div style="margin-top:18px">
+      <div class="skill-card">
+        <div>Current: <strong id="current">X</strong></div>
+        <div class="ttt-board" id="board">
+          <div class="ttt-cell" data-cell="0"></div>
+          <div class="ttt-cell" data-cell="1"></div>
+          <div class="ttt-cell" data-cell="2"></div>
+          <div class="ttt-cell" data-cell="3"></div>
+          <div class="ttt-cell" data-cell="4"></div>
+          <div class="ttt-cell" data-cell="5"></div>
+          <div class="ttt-cell" data-cell="6"></div>
+          <div class="ttt-cell" data-cell="7"></div>
+          <div class="ttt-cell" data-cell="8"></div>
+        </div>
+        <div style="margin-top:12px"><button id="reset" class="btn">Reset Game</button></div>
+        <div id="status" style="margin-top:8px;color:var(--muted)"></div>
+      </div>
+    </div>
+  </main>
+  <script src="../script.js"></script>
+  <script src="js/tictactoe.js"></script>
+</body>
+</html>

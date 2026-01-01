@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selva Perumal S | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav id="navbar" class="nav">
+  <div class="nav-inner">
+    <div class="logo">Selva Perumal S</div>
+    <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="burger"></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#tasks">Tasks</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO / HOME -->
+<header id="home" class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Selva Perumal S</h1>
+      <p class="subtitle">B.Tech Student • Web Developer</p>
+      <p class="lead">I am a motivated B.Tech student and aspiring web developer who enjoys building clean, interactive, and responsive websites while continuously improving my technical skills.</p>
+      <div class="hero-ctas">
+        <a class="btn neon" href="#skills">View My Portfolio</a>
+        <a class="btn ghost" href="#contact">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img src="pic.22.jpg" alt="Selva Perumal S" class="hero-photo" loading="lazy" tabindex="0">
+    </div>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="section about">
+  <div class="container about-grid">
+    <div class="about-image">
+      <img src="pic.22.jpg" alt="Selva Perumal S" class="about-photo" loading="lazy" tabindex="0">
+    </div>
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p><strong>Name:</strong> Selva Perumal S</p>
+      <p><strong>Education:</strong> Pursuing B.Tech in Computer Science & Business Systems</p>
+      <p><strong>College:</strong> S.A. Engineering College</p>
+      <p>I am enthusiastic about web development, always curious to learn new technologies, and have a strong foundation in programming. I enjoy building simple, efficient, and user-friendly applications and aim to grow as a student-professional ready for placements and internships.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section skills">
+  <div class="container">
+    <h2>Skills</h2>
+    <p class="section-sub">Languages & technologies I use to build web apps and solve problems</p>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon"> <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#0ff"/></svg></div>
+        <h3>C++</h3>
+        <div class="skill-bar"><div class="fill" style="--w:65%"></div></div>
+        <p>Used for competitive programming and systems-level tasks — comfortable with OOP and STL.</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"> <svg viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" rx="3" fill="#7cffc4"/></svg></div>
+        <h3>C</h3>
+        <div class="skill-bar"><div class="fill" style="--w:68%"></div></div>
+        <p>Solid understanding of pointers, memory, and procedural programming for low-level tasks.</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"> <svg viewBox="0 0 24 24"><path d="M3 3h18v18H3z" fill="#9b6bff"/></svg></div>
+        <h3>Java</h3>
+        <div class="skill-bar"><div class="fill" style="--w:58%"></div></div>
+        <p>Experience with OOP concepts and building small applications and data-structure practice.</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"> <svg viewBox="0 0 24 24"><circle cx="8" cy="12" r="6" fill="#f7f48b"/></svg></div>
+        <h3>Python</h3>
+        <div class="skill-bar"><div class="fill" style="--w:52%"></div></div>
+        <p>Used for scripting, small projects, and problem solving with readable, concise code.</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"> <svg viewBox="0 0 24 24"><path d="M2 2h20v20H2z" fill="#1e90ff"/></svg></div>
+        <h3>HTML</h3>
+        <div class="skill-bar"><div class="fill" style="--w:78%"></div></div>
+        <p>Strong at building responsive layouts, semantic markup, and accessible interfaces.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TASKS -->
+<section id="tasks" class="section tasks">
+  <div class="container">
+    <h2>Tasks</h2>
+    <p class="section-sub">Practical projects built with HTML, CSS, and JavaScript</p>
+    <div class="tasks-grid">
+      <a class="task-card" href="tasks/portfolio.html">
+        <div class="task-title">Portfolio Website</div>
+        <p class="task-desc">A personal portfolio website to showcase skills, projects, and contact details — personal branding and professional presence.</p>
+      </a>
+      <a class="task-card" href="tasks/stopwatch.html">
+        <div class="task-title">Stopwatch Application</div>
+        <p class="task-desc">A functional stopwatch with start, pause, and reset features — useful for time tracking and productivity.</p>
+      </a>
+      <a class="task-card" href="tasks/tictactoe.html">
+        <div class="task-title">Tic Tac Toe Game</div>
+        <p class="task-desc">An interactive Tic Tac Toe game with win detection logic — practice in game logic and UI.</p>
+      </a>
+      <a class="task-card" href="tasks/todo.html">
+        <div class="task-title">To-Do Web Application</div>
+        <p class="task-desc">A task management app to add, delete, and manage daily activities — productivity tool built with JS and localStorage.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+  <div class="container contact-grid">
+    <div>
+      <h2>Contact</h2>
+      <p>I'd love to collaborate—feel free to reach out for internships, projects, or questions.</p>
+      <p><strong>Email:</strong> <a class="link neon-link" href="mailto:selvaperumal64245@gmail.com">selvaperumal64245@gmail.com</a></p>
+      <p><strong>LinkedIn:</strong> <a class="link neon-link" href="https://www.linkedin.com/in/selva-perumal-s" target="_blank" rel="noopener">Selva Perumal S</a></p>
+      <p><strong>GitHub:</strong> <a class="link neon-link" href="https://github.com/Selva1323" target="_blank" rel="noopener">Selva1323</a></p>
+    </div>
+    <form class="contact-form" action="mailto:selvaperumal64245@gmail.com" method="GET">
+      <input type="text" name="subject" placeholder="Subject" required>
+      <textarea name="body" rows="5" placeholder="Message (brief)" required></textarea>
+      <button class="btn neon" type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">© 2026 Selva Perumal S — Built with care</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
